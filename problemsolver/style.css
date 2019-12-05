@@ -1,0 +1,80 @@
+html
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTT0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+		#title
+		{
+			float : left;
+			clear: both;
+			text-decoration: none;
+			cursor : pointer;
+		}
+		#title
+		{
+			text-decoration : none !important;
+		}
+		navigation
+		{
+			height : 100%;
+			width : 100%;
+		}
+		#login,#signup
+		{
+			float : right;
+			margin-top : -3.5em;
+			clear : left;
+		}
+		#login
+		{
+			margin-right : 7%;
+		}
+		#logout
+		{
+			float : right;
+			clear : both;
+		}
+		time 
+		{
+			float : right;
+			clear : both;
+			font-size: 0.7em;
+		}
+		form
+		{
+			
+			padding : 60px;
+		}
+		#profile_picture 
+		{
+			background-color : grey;
+		}
+
+		form input {
+			box-shadow: 2px 2px black;
+		}
+		.error
+		{
+			color : #FF0000;
+		}
+		footer
+		{
+			text-align : center;
+			background-color: white;
+			
+		}
+		a
+		{
+			text-decoration : none !important;
+		}
+		.problemTable
+		{
+			border-color : black;
+		}
+		#who
+		{
+			margin-top : -3.5em;
+		}
